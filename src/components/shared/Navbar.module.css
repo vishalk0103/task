@@ -1,0 +1,23 @@
+.nav {
+  width: 100%;
+  background: rgb(37, 120, 153);
+  background: linear-gradient(
+    90deg,
+    rgba(37, 120, 153, 1) 0%,
+    rgba(13, 112, 135, 1) 0%,
+    rgba(38, 102, 115, 1) 0%,
+    rgba(64, 124, 175, 1) 41%,
+    rgba(60, 99, 145, 1) 100%,
+    rgba(19, 70, 132, 1) 100%
+  );
+}
+.nav nav {
+  background-color: #28282847 !important;
+}
+.profile {
+  display: flex;
+  align-items: center;
+}
+.profile :only-child {
+  padding: 10px;
+}

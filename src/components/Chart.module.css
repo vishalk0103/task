@@ -1,0 +1,27 @@
+.chart {
+  display: flex;
+  align-items: center;
+  padding: 20px 30px 0px 35px;
+}
+li {
+  list-style: none;
+  line-height: 0.5;
+  margin-bottom: 10px;
+}
+li::before {
+  content: "• ";
+  font-size: 1.5rem;
+}
+ul li:nth-child(2)::before {
+  color: rgb(78, 183, 143);
+}
+ul li:nth-child(4)::before {
+  color: rgb(220, 153, 37) !important;
+}
+ul li:nth-child(6)::before {
+  color: rgb(223, 46, 81) !important;
+}
+
+ul span {
+  font-weight: 700;
+}

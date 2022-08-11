@@ -1,0 +1,21 @@
+.container {
+  background-color: white;
+  height: 100vh;
+  text-align: center;
+}
+.links div {
+  padding-top: 5px;
+  margin-top: 40px;
+  border-left: 5px solid white;
+  text-align: center !important;
+}
+.links div:nth-child(3) {
+  background-color: rgb(224, 224, 224);
+  border-left: 5px solid rgb(11, 96, 181);
+}
+
+.links div:hover {
+  background-color: rgb(224, 224, 224);
+  transition: 350ms;
+  border-left: 5px solid rgb(11, 96, 181);
+}

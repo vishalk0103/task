@@ -1,12 +1,47 @@
 .App {
   text-align: center;
+  font-family: "Poppins", sans-serif;
 }
 
 .App-logo {
   height: 40vmin;
   pointer-events: none;
 }
-
+.CBtn {
+  color: rgb(44, 138, 253);
+  border-color: rgb(44, 138, 253);
+  border: 1px solid rgb(44, 138, 253);
+}
+table {
+  border: transparent !important;
+  background-color: white !important;
+}
+table tr td {
+  padding: 10px !important;
+}
+.off-white {
+  color: rgb(227, 224, 224);
+}
+.DBtn {
+  background-color: #12d490;
+  border: 1px solid #12d490;
+}
+.agencyHeader {
+  align-items: baseline !important;
+}
+tbody {
+  border: 0px solid rgb(249, 246, 246) !important;
+}
+div label,
+div select {
+  font-size: 0.7rem;
+}
+.container--ag span {
+  font-size: 1.1rem;
+}
+thead tr th {
+  padding-top: 20px !important;
+}
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
